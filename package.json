@@ -1,0 +1,28 @@
+{
+  "name": "allofthenews",
+  "version": "1.0.0",
+  "description": "An app that pulls web articles and allows users to comment on them. Uses express, express-handlebars, body-parser, mongojs, cheerio and request npms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwantclarity/scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/iwantclarity/scrape.git"
+  },
+  "homepage": "https://github.com/iwantclarity/scrape#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mongojs": "^2.4.0",
+    "request": "^2.74.0"
+  }
+}
